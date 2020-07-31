@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type = "module" src="controller.js"></script>
+    <!-- <script type="module" src="./engine/game.js"></script>   -->
+</head>
+
+<body>
+    <h1 id="Score">Score: 0</h1>
+    <h2>Instructions: Use the arrow keys to move the tiles on the board. Try to combine tiles until you get to 2048!</h2>
+    <button id="resetButton">Reset</button> 
+    <div></div>
+    <div class="Board">
+        <div id="0" class="cell">0</div>
+        <div id="1" class="cell">0</div>
+        <div id="2" class="cell">0</div>
+        <div id="3" class="cell">0</div>
+        <div id="4" class="cell">0</div>
+        <div id="5" class="cell">0</div>
+        <div id="6" class="cell">0</div>
+        <div id="7" class="cell">0</div>
+        <div id="8" class="cell">0</div>
+        <div id="9" class="cell">0</div>
+        <div id="10" class="cell">0</div>
+        <div id="11" class="cell">0</div>
+        <div id="12" class="cell">0</div>
+        <div id="13" class="cell">0</div>
+        <div id="14" class="cell">0</div>
+        <div id="15" class="cell">0</div>
+    </div>
+
+    <div id="winDiv" class="win">
+        <h1>You Won!!!</h1>
+        
+    </div>
+
+    <div id="loseDiv" class="lose">
+            <h1>Game Over!!!</h1>
+            
+        </div>
+
+    
+    <!-- <script type="module" src="engine\game.js"></script>  -->
+    <!-- <script type="module" src="run_in_console.js"></script> -->
+    <!-- <script type="module" src="test.js"></script>
+    <script type="module" src="testRunnable.js"></script> -->
+</body>
+ 
+</html>

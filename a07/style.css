@@ -1,0 +1,28 @@
+.Board {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(122, 185, 236);
+    padding: 10px;
+  }
+  
+  .cell {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(252, 252, 252, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+  }
+
+  #resetButton {
+    background-color: rgb(39, 230, 45); /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
